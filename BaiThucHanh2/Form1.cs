@@ -17,25 +17,26 @@ namespace BaiThucHanh2
             InitializeComponent();
         }
 
-        private void btnKQ_Click(object sender, EventArgs e)
+        int i = 20;
+        private void btnBatDau_Click(object sender, EventArgs e)
         {
-            string hoten = this.txtHoTen.Text.Trim();
-            if (this.rad1.Checked == true)
-            {
-                txtKQ.Text = hoten.ToLower();
-            }
-            if (this.rad2.Checked == true)
-            {
-                txtKQ.Text = hoten.ToUpper();
-            }
+            timer1.Enabled = true;
+            lblDongHo.Text = i.ToString();
         }
 
-        private void btnXoa_Click(object sender, EventArgs e)
+        private void btnDung_Click(object sender, EventArgs e)
         {
-            this.txtHoTen.Clear();
-            this.txtKQ.Clear();
-            this.rad1.Checked = true;
-            this.txtHoTen.Focus();
+            Application.Exit();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            i--;
+            lblDongHo.Text = i.ToString();
+            if (i <= 0)
+            {
+                lblDongHo.Text = "Hết giờ!";
+            }
         }
     }
 }
