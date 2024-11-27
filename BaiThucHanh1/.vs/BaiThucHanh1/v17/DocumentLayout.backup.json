@@ -3,10 +3,7 @@
   "WorkspaceRootPath": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95CAEFFD-4AA2-4606-B7D6-1248B1CE300A}|..\\BaiThucHanh4\\BaiThucHanh4.csproj|d:\\workspace\\winform\\thuchanh\\baithuchanh4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95CAEFFD-4AA2-4606-B7D6-1248B1CE300A}|..\\BaiThucHanh4\\BaiThucHanh4.csproj|d:\\workspace\\winform\\thuchanh\\baithuchanh4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6D0C39B-4C84-47C8-BA72-6FF5EC26500E}|..\\BaiThucHanh5\\BaiThucHanh5.csproj|d:\\workspace\\winform\\thuchanh\\baithuchanh5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -28,27 +25,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\BaiThucHanh4\\Form1.cs",
-              "ToolTip": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Form1.cs",
-              "RelativeToolTip": "..\\BaiThucHanh4\\Form1.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAcwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:10:26.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\BaiThucHanh4\\Form1.cs",
-              "ToolTip": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\BaiThucHanh4\\Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh5\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\BaiThucHanh5\\Form1.cs",
+              "ToolTip": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh5\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\BaiThucHanh5\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:10:24.85Z",
+              "WhenOpened": "2024-11-21T09:30:00.845Z",
               "EditorCaption": " [Design]"
             }
           ]

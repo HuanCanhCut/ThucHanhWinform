@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8F1879B6-12BA-4AFD-A908-0595534D3B68}</ProjectGuid>
+    <ProjectGuid>{71B34453-64A8-45A1-99AA-86790BE58839}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>BaiThucHanh2</RootNamespace>
     <AssemblyName>BaiThucHanh2</AssemblyName>
