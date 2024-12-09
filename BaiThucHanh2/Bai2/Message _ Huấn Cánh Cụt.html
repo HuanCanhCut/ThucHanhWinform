@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" class="light dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-counter-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(-1 * var(--fa-li-width, 2em));
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    animation-delay: -1ms;
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  4% {
+    transform: rotate(15deg);
+  }
+  8%, 24% {
+    transform: rotate(-18deg);
+  }
+  12%, 28% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-22deg);
+  }
+  20% {
+    transform: rotate(22deg);
+  }
+  32% {
+    transform: rotate(-12deg);
+  }
+  36% {
+    transform: rotate(12deg);
+  }
+  40%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=16&amp;q=100 16w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=32&amp;q=100 32w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=48&amp;q=100 48w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=64&amp;q=100 64w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=96&amp;q=100 96w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=128&amp;q=100 128w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=256&amp;q=100 256w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=384&amp;q=100 384w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=640&amp;q=100 640w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=750&amp;q=100 750w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=828&amp;q=100 828w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=1080&amp;q=100 1080w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=1200&amp;q=100 1200w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=1920&amp;q=100 1920w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=2048&amp;q=100 2048w, /_next/image?url=%2Fstatic%2Fmedia%2Flight-logo.png&amp;w=3840&amp;q=100 3840w" imagesizes="1000px" fetchpriority="high"><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fstatic%2Fmedia%2Fdefault-avatar.jpg&amp;w=48&amp;q=100 1x, /_next/image?url=%2Fstatic%2Fmedia%2Fdefault-avatar.jpg&amp;w=96&amp;q=100 2x" fetchpriority="high"><link rel="stylesheet" href="./Message _ Huấn Cánh Cụt_files/layout.css" data-precedence="next_static/css/app/layout.css"><link rel="stylesheet" href="./Message _ Huấn Cánh Cụt_files/layout(1).css" data-precedence="next_static/css/app/(DefaultLayout)/layout.css"><link rel="preload" as="script" fetchpriority="low" href="./Message _ Huấn Cánh Cụt_files/webpack.js.download"><script src="./Message _ Huấn Cánh Cụt_files/main-app.js.download" async=""></script><script src="./Message _ Huấn Cánh Cụt_files/app-pages-internals.js.download" async=""></script><script src="./Message _ Huấn Cánh Cụt_files/page.js.download" async=""></script><script src="./Message _ Huấn Cánh Cụt_files/layout.js.download" async=""></script><script src="./Message _ Huấn Cánh Cụt_files/not-found.js.download" async=""></script><title>Message | Huấn Cánh Cụt</title><meta name="description" content="Message Huấn Cánh Cụt"><link rel="icon" href="http://localhost:3000/favicon.ico" type="image/x-icon" sizes="32x32"><meta name="next-size-adjust"><script src="./Message _ Huấn Cánh Cụt_files/polyfills.js.download" nomodule=""></script><link rel="preload" href="http://localhost:3000/_next/static/media/a34f9d1faa5f3315-s.p.woff2" as="font" crossorigin="" type="font/woff2"><link rel="preload" as="image" fetchpriority="high" imagesrcset="/_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=16&amp;q=100 16w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=32&amp;q=100 32w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=48&amp;q=100 48w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=64&amp;q=100 64w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=96&amp;q=100 96w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=128&amp;q=100 128w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=256&amp;q=100 256w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=384&amp;q=100 384w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=640&amp;q=100 640w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=750&amp;q=100 750w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=828&amp;q=100 828w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1080&amp;q=100 1080w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1200&amp;q=100 1200w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1920&amp;q=100 1920w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=2048&amp;q=100 2048w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=3840&amp;q=100 3840w" imagesizes="1000px"><link rel="preload" as="image" fetchpriority="high" imagesrcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=64&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=128&amp;q=100 2x"><link rel="preload" as="image" fetchpriority="high" imagesrcset="/_next/image?url=%2Fstatic%2Fmedia%2Fdefault-avatar.jpg&amp;w=64&amp;q=100 1x, /_next/image?url=%2Fstatic%2Fmedia%2Fdefault-avatar.jpg&amp;w=128&amp;q=100 2x"><link rel="preload" as="image" fetchpriority="high" imagesrcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=48&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=96&amp;q=100 2x"><link rel="preload" as="image" fetchpriority="high" imagesrcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=48&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=96&amp;q=100 2x"><link rel="preload" as="image" fetchpriority="high" imagesrcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=64&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=128&amp;q=100 2x"></head><body class="__className_d65c78 text-black dark:text-dark"><audio src="/static/audio/notify.mp3" id="notification-sound"></audio><div><header id="header" class="fixed left-0 right-0 top-0 z-20 w-full justify-between bg-white px-3 shadow-sm shadow-[#0000001f] dark:bg-darkGray dark:text-dark dark:shadow-[#ffffff1f] hidden h-[var(--header-height)] sm:flex sm:items-center"><div class="flex items-center gap-4"><a class="col-span-1" href="http://localhost:3000/message"><img alt="logo" fetchpriority="high" width="0" height="0" decoding="async" data-nimg="1" class="h-auto w-[35px] cursor-pointer sm:w-[40px]" style="color:transparent" sizes="1000px" srcset="/_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=16&amp;q=100 16w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=32&amp;q=100 32w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=48&amp;q=100 48w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=64&amp;q=100 64w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=96&amp;q=100 96w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=128&amp;q=100 128w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=256&amp;q=100 256w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=384&amp;q=100 384w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=640&amp;q=100 640w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=750&amp;q=100 750w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=828&amp;q=100 828w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1080&amp;q=100 1080w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1200&amp;q=100 1200w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1920&amp;q=100 1920w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=2048&amp;q=100 2048w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=3840&amp;q=100 3840w" src="./Message _ Huấn Cánh Cụt_files/dark-logo.png"></a><div class="relative rounded-3xl bg-lightGray pl-3 dark:bg-[#313233] sm:pl-10 w-[240px]" aria-expanded="false"><input type="text" placeholder="Tìm kiếm" class="w-full rounded-3xl bg-transparent py-[8px] pl-[1px] pr-11 caret-primary outline-none placeholder:text-sm dark:bg-[#313233]" value=""><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass absolute left-3 top-1/2 hidden -translate-y-1/2 text-xl text-gray-400 sm:block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16" height="16"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg><button class="absolute right-0 top-1/2 block aspect-square h-full -translate-y-1/2 rounded-full leading-none sm:hidden"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" class="svg-inline--fa fa-xmark text-xl leading-none" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="16" height="16"><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg></button></div></div><nav class="relative flex h-full items-center"><div class="aspect-[16/9] h-full border-b-2 border-transparent"><a class=" flex-center h-full rounded-md text-xl hover:bg-[#a7a7a736] dark:hover:bg-[#313333]" href="http://localhost:3000/message"><svg width="32" height="32" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.0484 7.84003C23.6014 7.38666 24.3975 7.38666 24.9504 7.84001L41.051 21.04C41.5411 21.4418 41.7258 22.1082 41.5125 22.705C41.2991 23.3017 40.7338 23.7 40.1 23.7H37.769L36.5769 36.7278C36.4592 38.0149 35.3798 39 34.0873 39H13.9127C12.6202 39 11.5409 38.0149 11.4231 36.7278L10.231 23.7H7.89943C7.2657 23.7 6.70035 23.3017 6.487 22.705C6.27364 22.1083 6.45833 21.4418 6.9484 21.04L23.0484 7.84003ZM23.9995 10.9397L12.0948 20.7H12.969L14.369 36H22.4994V28.3138C22.4994 27.7616 22.9471 27.3138 23.4994 27.3138H24.4994C25.0517 27.3138 25.4994 27.7616 25.4994 28.3138V36H33.631L35.031 20.7H35.9045L23.9995 10.9397Z"></path></svg></a></div><div class="aspect-[16/9] h-full border-b-2 border-transparent"><a class=" flex-center h-full rounded-md text-xl hover:bg-[#a7a7a736] dark:hover:bg-[#313333]" href="http://localhost:3000/user/@tronghuandev"><svg width="32" height="32" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 12.5C15.5897 12.5 13.5849 14.5018 13.5849 17.0345C13.5849 19.5672 15.5897 21.569 18 21.569C20.4103 21.569 22.4151 19.5672 22.4151 17.0345C22.4151 14.5018 20.4103 12.5 18 12.5ZM10.5849 17.0345C10.5849 12.9017 13.8766 9.5 18 9.5C22.1234 9.5 25.4151 12.9017 25.4151 17.0345C25.4151 21.1673 22.1234 24.569 18 24.569C13.8766 24.569 10.5849 21.1673 10.5849 17.0345ZM18 29.8793C14.0801 29.8793 10.7403 32.5616 9.69697 36.2673C9.5473 36.7989 9.03833 37.1708 8.49337 37.0811L7.50662 36.9189C6.96166 36.8292 6.58837 36.3131 6.72325 35.7776C8.00732 30.6788 12.5509 26.8793 18 26.8793C23.449 26.8793 27.9927 30.6788 29.2767 35.7776C29.4116 36.3131 29.0383 36.8292 28.4934 36.9189L27.5066 37.0811C26.9617 37.1708 26.4527 36.7989 26.303 36.2673C25.2597 32.5616 21.9199 29.8793 18 29.8793Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33 31.5371C32.2445 31.5371 31.5198 31.668 30.8447 31.9093C30.3246 32.0951 29.7189 31.9243 29.4549 31.4392L28.9769 30.5608C28.713 30.0757 28.8907 29.463 29.4009 29.2516C30.513 28.791 31.7285 28.5371 33 28.5371C37.4554 28.5371 41.1594 31.6303 42.2706 35.7812C42.4135 36.3147 42.0386 36.8308 41.4935 36.9196L40.5065 37.0804C39.9614 37.1692 39.4546 36.7956 39.2894 36.2686C38.4217 33.5 35.91 31.5371 33 31.5371Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33 18.5C31.6193 18.5 30.5 19.6193 30.5 21C30.5 22.3807 31.6193 23.5 33 23.5C34.3807 23.5 35.5 22.3807 35.5 21C35.5 19.6193 34.3807 18.5 33 18.5ZM27.5 21C27.5 17.9624 29.9624 15.5 33 15.5C36.0376 15.5 38.5 17.9624 38.5 21C38.5 24.0376 36.0376 26.5 33 26.5C29.9624 26.5 27.5 24.0376 27.5 21Z"></path></svg></a></div></nav><div class="flex items-center gap-4"><div class="relative" aria-expanded="false"><button class="flex-center   h-7 w-7 xxs:h-9  xxs:w-9 flex-center rounded-full bg-lightGray dark:bg-[#313233]  undefined"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell" class="svg-inline--fa fa-bell text-lg sm:text-xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20"><path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"></path></svg></button></div><div><a class="flex-center   h-7 w-7 xxs:h-9  xxs:w-9 flex-center rounded-full bg-lightGray dark:bg-[#313233]  undefined" href="http://localhost:3000/message"><svg viewBox="0 0 12 13" width="20" height="20" fill="currentColor"><g fill-rule="evenodd" transform="translate(-450 -1073)"><path d="m459.603 1077.948-1.762 2.851a.89.89 0 0 1-1.302.245l-1.402-1.072a.354.354 0 0 0-.433.001l-1.893 1.465c-.253.196-.583-.112-.414-.386l1.763-2.851a.89.89 0 0 1 1.301-.245l1.402 1.072a.354.354 0 0 0 .434-.001l1.893-1.465c.253-.196.582.112.413.386M456 1073.5c-3.38 0-6 2.476-6 5.82 0 1.75.717 3.26 1.884 4.305.099.087.158.21.162.342l.032 1.067a.48.48 0 0 0 .674.425l1.191-.526a.473.473 0 0 1 .32-.024c.548.151 1.13.231 1.737.231 3.38 0 6-2.476 6-5.82 0-3.344-2.62-5.82-6-5.82"></path></g></svg></a></div><div class="flex-shrink-0" aria-expanded="false"><img alt="avatar" fetchpriority="high" width="36" height="36" decoding="async" data-nimg="1" class="aspect-square flex-shrink-0 cursor-pointer rounded-full object-cover w-[32px] sm:w-[36px]" style="color:transparent" srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=48&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=96&amp;q=100 2x" src="./Message _ Huấn Cánh Cụt_files/avatar.jpeg"></div></div></header><header class="fixed left-0 right-0 top-0 z-20 w-full justify-between bg-white px-3 shadow-sm shadow-[#0000001f] dark:bg-darkGray dark:text-dark dark:shadow-[#ffffff1f] flex h-[var(--header-height-mobile)] flex-col sm:hidden"><div class="flex items-center justify-between"><div class="flex items-center gap-4"><a class="col-span-1" href="http://localhost:3000/message"><img alt="logo" fetchpriority="high" width="0" height="0" decoding="async" data-nimg="1" class="h-auto w-[35px] cursor-pointer sm:w-[40px]" style="color:transparent" sizes="1000px" srcset="/_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=16&amp;q=100 16w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=32&amp;q=100 32w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=48&amp;q=100 48w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=64&amp;q=100 64w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=96&amp;q=100 96w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=128&amp;q=100 128w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=256&amp;q=100 256w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=384&amp;q=100 384w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=640&amp;q=100 640w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=750&amp;q=100 750w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=828&amp;q=100 828w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1080&amp;q=100 1080w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1200&amp;q=100 1200w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=1920&amp;q=100 1920w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=2048&amp;q=100 2048w, /_next/image?url=%2Fstatic%2Fmedia%2Fdark-logo.png&amp;w=3840&amp;q=100 3840w" src="./Message _ Huấn Cánh Cụt_files/dark-logo.png"></a><button class="flex-center   h-7 w-7 xxs:h-9  xxs:w-9 flex-center rounded-full bg-lightGray dark:bg-[#313233]  sm:hidden"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass text-gray-400 sm:block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16" height="16"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg></button></div><div class="flex items-center gap-4"><div class="relative" aria-expanded="false"><button class="flex-center   h-7 w-7 xxs:h-9  xxs:w-9 flex-center rounded-full bg-lightGray dark:bg-[#313233]  undefined"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell" class="svg-inline--fa fa-bell text-lg sm:text-xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20"><path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"></path></svg></button></div><div><a class="flex-center   h-7 w-7 xxs:h-9  xxs:w-9 flex-center rounded-full bg-lightGray dark:bg-[#313233]  undefined" href="http://localhost:3000/message"><svg viewBox="0 0 12 13" width="20" height="20" fill="currentColor"><g fill-rule="evenodd" transform="translate(-450 -1073)"><path d="m459.603 1077.948-1.762 2.851a.89.89 0 0 1-1.302.245l-1.402-1.072a.354.354 0 0 0-.433.001l-1.893 1.465c-.253.196-.583-.112-.414-.386l1.763-2.851a.89.89 0 0 1 1.301-.245l1.402 1.072a.354.354 0 0 0 .434-.001l1.893-1.465c.253-.196.582.112.413.386M456 1073.5c-3.38 0-6 2.476-6 5.82 0 1.75.717 3.26 1.884 4.305.099.087.158.21.162.342l.032 1.067a.48.48 0 0 0 .674.425l1.191-.526a.473.473 0 0 1 .32-.024c.548.151 1.13.231 1.737.231 3.38 0 6-2.476 6-5.82 0-3.344-2.62-5.82-6-5.82"></path></g></svg></a></div><div class="flex-shrink-0" aria-expanded="false"><img alt="avatar" fetchpriority="high" width="36" height="36" decoding="async" data-nimg="1" class="aspect-square flex-shrink-0 cursor-pointer rounded-full object-cover w-[32px] sm:w-[36px]" style="color:transparent" srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=48&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=96&amp;q=100 2x" src="./Message _ Huấn Cánh Cụt_files/avatar.jpeg"></div></div></div><div class="mx-auto flex-1"><nav class="relative flex h-full items-center"><div class="aspect-[16/9] h-full border-b-2 border-transparent"><a class=" flex-center h-full rounded-md text-xl hover:bg-[#a7a7a736] dark:hover:bg-[#313333]" href="http://localhost:3000/message"><svg width="32" height="32" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.0484 7.84003C23.6014 7.38666 24.3975 7.38666 24.9504 7.84001L41.051 21.04C41.5411 21.4418 41.7258 22.1082 41.5125 22.705C41.2991 23.3017 40.7338 23.7 40.1 23.7H37.769L36.5769 36.7278C36.4592 38.0149 35.3798 39 34.0873 39H13.9127C12.6202 39 11.5409 38.0149 11.4231 36.7278L10.231 23.7H7.89943C7.2657 23.7 6.70035 23.3017 6.487 22.705C6.27364 22.1083 6.45833 21.4418 6.9484 21.04L23.0484 7.84003ZM23.9995 10.9397L12.0948 20.7H12.969L14.369 36H22.4994V28.3138C22.4994 27.7616 22.9471 27.3138 23.4994 27.3138H24.4994C25.0517 27.3138 25.4994 27.7616 25.4994 28.3138V36H33.631L35.031 20.7H35.9045L23.9995 10.9397Z"></path></svg></a></div><div class="aspect-[16/9] h-full border-b-2 border-transparent"><a class=" flex-center h-full rounded-md text-xl hover:bg-[#a7a7a736] dark:hover:bg-[#313333]" href="http://localhost:3000/user/@tronghuandev"><svg width="32" height="32" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 12.5C15.5897 12.5 13.5849 14.5018 13.5849 17.0345C13.5849 19.5672 15.5897 21.569 18 21.569C20.4103 21.569 22.4151 19.5672 22.4151 17.0345C22.4151 14.5018 20.4103 12.5 18 12.5ZM10.5849 17.0345C10.5849 12.9017 13.8766 9.5 18 9.5C22.1234 9.5 25.4151 12.9017 25.4151 17.0345C25.4151 21.1673 22.1234 24.569 18 24.569C13.8766 24.569 10.5849 21.1673 10.5849 17.0345ZM18 29.8793C14.0801 29.8793 10.7403 32.5616 9.69697 36.2673C9.5473 36.7989 9.03833 37.1708 8.49337 37.0811L7.50662 36.9189C6.96166 36.8292 6.58837 36.3131 6.72325 35.7776C8.00732 30.6788 12.5509 26.8793 18 26.8793C23.449 26.8793 27.9927 30.6788 29.2767 35.7776C29.4116 36.3131 29.0383 36.8292 28.4934 36.9189L27.5066 37.0811C26.9617 37.1708 26.4527 36.7989 26.303 36.2673C25.2597 32.5616 21.9199 29.8793 18 29.8793Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33 31.5371C32.2445 31.5371 31.5198 31.668 30.8447 31.9093C30.3246 32.0951 29.7189 31.9243 29.4549 31.4392L28.9769 30.5608C28.713 30.0757 28.8907 29.463 29.4009 29.2516C30.513 28.791 31.7285 28.5371 33 28.5371C37.4554 28.5371 41.1594 31.6303 42.2706 35.7812C42.4135 36.3147 42.0386 36.8308 41.4935 36.9196L40.5065 37.0804C39.9614 37.1692 39.4546 36.7956 39.2894 36.2686C38.4217 33.5 35.91 31.5371 33 31.5371Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33 18.5C31.6193 18.5 30.5 19.6193 30.5 21C30.5 22.3807 31.6193 23.5 33 23.5C34.3807 23.5 35.5 22.3807 35.5 21C35.5 19.6193 34.3807 18.5 33 18.5ZM27.5 21C27.5 17.9624 29.9624 15.5 33 15.5C36.0376 15.5 38.5 17.9624 38.5 21C38.5 24.0376 36.0376 26.5 33 26.5C29.9624 26.5 27.5 24.0376 27.5 21Z"></path></svg></a></div></nav></div></header><main class="mt-[var(--header-height-mobile)] min-h-[calc(100vh-var(--header-height-mobile))] dark:bg-dark sm:mt-[var(--header-height)] sm:min-h-[calc(100vh-var(--header-height))]"><div class="flex h-screen max-h-[calc(100vh-var(--header-height-mobile))] w-full dark:bg-dark dark:text-dark sm:max-h-[calc(100vh-var(--header-height))]"><div class="h-full w-full flex-shrink-0 overflow-y-auto md:w-[var(--sidebar-width-tablet)] lg:w-[var(--sidebar-width)] hidden md:block"><aside class="flex h-full flex-col break-all border-r border-gray-200 p-2 pr-0 dark:border-gray-800"><header class="p-1 pr-2"><div class="flex w-full items-center justify-between"><img alt="avatar" fetchpriority="high" width="36" height="36" decoding="async" data-nimg="1" class="aspect-square flex-shrink-0 cursor-pointer rounded-full object-cover undefined" style="color:transparent" srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=48&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732811751%2Fchat-app%2Favatar%2F2-chat-app%2Favatar.jpg&amp;w=96&amp;q=100 2x" src="./Message _ Huấn Cánh Cụt_files/avatar.jpeg"><h3 class="text- text-xl font-semibold dark:text-dark">Huấn cánh cụt</h3><button class="flex h-9 w-9 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 dark:bg-darkGray dark:text-dark dark:hover:opacity-90"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" class="svg-inline--fa fa-ellipsis text-xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20"><path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path></svg></button></div></header><div><div class="mt-3 flex items-center gap-2" aria-expanded="false"><div class="mr-2 flex flex-1 items-center rounded-3xl bg-lightGray px-4 pl-3 dark:bg-[#313233]"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16" height="16"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg><input type="text" placeholder="Tìm kiếm trên Huancanhcut" class="w-full bg-transparent px-3 py-2 outline-none" value=""></div></div></div><div class="relative flex-grow [overflow:overlay]"><div class="h-full w-full pt-4"><div class="pr-2"><a class="flex items-center rounded-lg p-2 pr-5   bg-[#ebf5ff] dark:bg-[#222e39bd]" href="http://localhost:3000/message/73292052-8163-4b21-b85f-d25aee936d74"><div class="relative flex-shrink-0"><img alt="avatar" fetchpriority="high" width="56" height="56" decoding="async" data-nimg="1" class="aspect-square flex-shrink-0 cursor-pointer rounded-full object-cover h-[48px] w-[48px] lg:h-[56px] lg:w-[56px]" srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=64&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=128&amp;q=100 2x" src="./Message _ Huấn Cánh Cụt_files/avatar(1).jpeg" style="color: transparent;"><div class="absolute bottom-0 right-0 h-4 w-4 rounded-full border-2 border-white bg-green-500 dark:border-dark"></div></div><div class="ml-3 overflow-hidden"><p class="truncate font-medium">Trọng Huấn</p><div class="flex items-center text-xs font-normal text-gray-600 dark:text-gray-400"><span class="truncate pr-1"> 23</span><span class="flex-shrink-0"> · vài giây </span></div></div></a></div></div></div></aside></div><div class="h-full flex-grow overflow-y-auto md:block block"><div class="flex h-full"><div class="w-full flex-grow"><div class="flex h-full"><div class="flex flex-grow flex-col"><div class=" flex items-center justify-between px-2 py-1 shadow-sm shadow-gray-200 dark:shadow-neutral-800"><div class="flex items-center"><div class="flex-center cursor-pointer rounded-lg px-1 py-1 hover:bg-lightGray dark:hover:bg-darkGray md:hidden"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left text-xl dark:text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="22" height="22"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"></path></svg></div><div class="flex h-full cursor-pointer items-center gap-3 rounded-lg p-2 hover:bg-lightGray dark:hover:bg-darkGray"><div class="relative flex-shrink-0"><img alt="avatar" fetchpriority="high" width="40" height="40" decoding="async" data-nimg="1" class="aspect-square flex-shrink-0 cursor-pointer rounded-full object-cover undefined" style="color:transparent" srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=48&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkmwrkngj%2Fimage%2Fupload%2Fv1732877687%2Fchat-app%2Favatar%2F1-chat-app%2Favatar.jpg&amp;w=96&amp;q=100 2x" src="./Message _ Huấn Cánh Cụt_files/avatar(2).jpeg"><div class="absolute bottom-0 right-0 h-3 w-3 rounded-full border-2 border-white bg-green-500 dark:border-dark"></div></div><div><h4 class="max-w-[150px] truncate whitespace-nowrap font-semibold xs:max-w-[200px] sm:max-w-[250px] md:max-w-[350px]">Trọng Huấn</h4><span class="text-xs font-normal text-gray-700 dark:text-gray-400">Đang hoạt động</span></div></div></div><div class="flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-info" class="svg-inline--fa fa-circle-info cursor-pointer text-xl dark:text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></div></div><div class="flex-grow overflow-hidden"><div class="flex h-full max-h-full flex-col-reverse gap-1 overflow-y-auto px-3 pb-4"><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">23</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">22</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">21</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">20</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">19</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">18</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">17</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">16</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">15</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">14</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">13</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">12</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">10</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">11</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white self-start bg-[#313233]">9</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">7</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">8</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">5</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">6</p><p class="max-w-fit rounded-3xl px-4 py-1.5 font-light text-white bg-milk-tea self-end">4</p></div></div><div class=" flex items-center justify-between gap-3 px-4 py-2 pb-4"><div class="flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="image" class="svg-inline--fa fa-image cursor-pointer text-xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M448 80c8.8 0 16 7.2 16 16l0 319.8-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3L202 340.7l-30.5-42.7C167 291.7 159.8 288 152 288s-15 3.7-19.5 10.1l-80 112L48 416.3l0-.3L48 96c0-8.8 7.2-16 16-16l384 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"></path></svg></div><div class="relative flex flex-grow"><input type="text" class="w-full rounded-full bg-lightGray px-4 py-[6px] pr-12 outline-none dark:bg-[#333334]" placeholder="Aa" autofocus="" value="27"><button class="absolute right-3 top-1/2 -translate-y-1/2 leading-[1px]"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="face-smile" class="svg-inline--fa fa-face-smile text-xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></button></div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"></path><path d="M6 12h16"></path></svg></div></div></div></div></div></div></div></main></div><div class="Toastify"></div><script src="./Message _ Huấn Cánh Cụt_files/webpack.js.download" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/css/app/layout.css?v=1733153122265\",\"style\"]\n3:HL[\"/_next/static/css/app/(DefaultLayout)/layout.css?v=1733153122265\",\"style\"]\n0:D{\"name\":\"r0\",\"env\":\"Server\"}\n"])</script><script>self.__next_f.push([1,"4:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n6:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"ClientPageRoot\"]\n7:I[\"(app-pages-browser)/./src/app/(DefaultLayout)/message/[uuid]/page.tsx\",[\"app/(DefaultLayout)/message/[uuid]/page\",\"static/chunks/app/(DefaultLayout)/message/%5Buuid%5D/page.js\"],\"default\"]\n9:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\nb:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\nc:I[\"(app-pages-browser)/./src/app/(DefaultLayout)/message/layout.tsx\",[\"app/(DefaultLayout)/message/layout\",\"static/chunks/app/(DefaultLayout)/message/layout.js\"],\"default\"]\ne:I[\"(app-pages-browser)/./src/layouts/Header/Header.tsx\",[\"app/(DefaultLayout)/layout\",\"static/chunks/app/(DefaultLayout)/layout.js\"],\"default\"]\n10:I[\"(app-pages-browser)/./src/components/GlobalWrapper/GlobalSWRConfig.tsx\",[\"app/layout\",\"static/chunks/app/layout.js\"],\"default\"]\n11:I[\"(app-pages-browser)/./src/app/not-found.tsx\",[\"app/not-found\",\"static/chunks/app/not-found.js\"],\"default\"]\n14:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n5:D{\"name\":\"\",\"env\":\"Server\"}\n8:D{\"name\":\"ChatLayout\",\"env\":\"Server\"}\na:[\"uuid\",\"73292052-8163-4b21-b85f-d25aee936d74\",\"d\"]\n8:[\"$\",\"$L9\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(DefaultLayout)\",\"children\",\"message\",\"children\",\"$a\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"style"])</script><script>self.__next_f.push([1,"s\":null}]\nd:D{\"name\":\"DefaultLayout\",\"env\":\"Server\"}\nd:[\"$\",\"div\",null,{\"children\":[[\"$\",\"$Le\",null,{}],[\"$\",\"main\",null,{\"className\":\"mt-[var(--header-height-mobile)] min-h-[calc(100vh-var(--header-height-mobile))] dark:bg-dark sm:mt-[var(--header-height)] sm:min-h-[calc(100vh-var(--header-height))]\",\"children\":[\"$\",\"$L9\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(DefaultLayout)\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}]}]]}]\nf:D{\"name\":\"RootLayout\",\"env\":\"Server\"}\nf:[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__className_d65c78 text-black dark:text-dark\",\"children\":[\"$\",\"$L10\",null,{\"children\":[\"$\",\"$L9\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$L11\",null,{}],\"notFoundStyles\":[],\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/app/(DefaultLayout)/layout.css?v=1733153122265\",\"precedence\":\"next_static/css/app/(DefaultLayout)/layout.css\",\"crossOrigin\":\"$undefined\"}]]}]}]}]}]\n12:D{\"name\":\"rZ\",\"env\":\"Server\"}\n12:null\n13:D{\"name\":\"\",\"env\":\"Server\"}\n15:[]\n0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/app/layout.css?v=1733153122265\",\"precedence\":\"next_static/css/app/layout.css\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L4\",null,{\"buildId\":\"development\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/message/73292052-8163-4b21-b85f-d25aee936d74\",\"initialTree\":[\"\",{\"children\":[\"(DefaultLayout)\",{\"children\":[\"message\",{\"children\":[[\"uuid\",\"73292052-8163-4b21-b85f-d25aee936d74\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"(DefaultLayout)\",{\"children\":[\"message\",{\"children\":"])</script><script>self.__next_f.push([1,"[[\"uuid\",\"73292052-8163-4b21-b85f-d25aee936d74\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L5\",[\"$\",\"$L6\",null,{\"props\":{\"params\":{\"uuid\":\"73292052-8163-4b21-b85f-d25aee936d74\"},\"searchParams\":{}},\"Component\":\"$7\"}]],null],null]},[\"$8\",null],null]},[[\"$\",\"$Lc\",null,{\"children\":[\"$\",\"$L9\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(DefaultLayout)\",\"children\",\"message\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],\"params\":{}}],null],null]},[\"$d\",null],null]},[\"$f\",null],null],\"couldBeIntercepted\":false,\"initialHead\":[\"$12\",\"$L13\"],\"globalErrorComponent\":\"$14\",\"missingSlots\":\"$W15\"}]]\n"])</script><script>self.__next_f.push([1,"13:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Message | Huấn Cánh Cụt\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Message Huấn Cánh Cụt\"}],[\"$\",\"link\",\"4\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"32x32\"}],[\"$\",\"meta\",\"5\",{\"name\":\"next-size-adjust\"}]]\n5:null\n"])</script><div class="ReactModalPortal"></div><next-route-announcer style="position: absolute;"><template shadowrootmode="open"><div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;"></div></template></next-route-announcer><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div></body></html>
