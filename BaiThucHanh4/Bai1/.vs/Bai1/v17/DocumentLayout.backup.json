@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|solutionrelative:staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|d:\\workspace\\winform\\thuchanh\\baithuchanh4\\bai1\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|d:\\workspace\\winform\\thuchanh\\baithuchanh4\\bai1\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|solutionrelative:staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Bai1\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|solutionrelative:datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "StaffManager.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Bai1\\StaffManager.cs",
+              "RelativeDocumentMoniker": "StaffManager.cs",
+              "ToolTip": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Bai1\\StaffManager.cs [Design]*",
+              "RelativeToolTip": "StaffManager.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:10:56.616Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataHelper.cs",
               "DocumentMoniker": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Bai1\\DataHelper.cs",
               "RelativeDocumentMoniker": "DataHelper.cs",
@@ -49,7 +65,7 @@
               "RelativeDocumentMoniker": "StaffManager.cs",
               "ToolTip": "D:\\Workspace\\winform\\ThucHanh\\BaiThucHanh4\\Bai1\\StaffManager.cs*",
               "RelativeToolTip": "StaffManager.cs*",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAswJYAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAqwF4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T06:42:56.823Z",
               "EditorCaption": ""
